@@ -17,8 +17,13 @@ def getWays(n, c):
                 sol[i].append(sol[i-1][j])
     print sol[len(c)][n]
 
-n, m = raw_input().strip().split(' ')
-n, m = [int(n), int(m)]
-c = map(long, raw_input().strip().split(' '))
+n = sys.argv[1]
+n = n.split(',')
+c = sys.argv[2]
+c = c.split(',')
+n = map(int,n)
+c = map(int,c)
+print n
+print c
 # Print the number of ways of making change for 'n' units using coins having the values given by 'c'
-ways = getWays(n, c)
+ways = getWays(n[0], c)
