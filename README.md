@@ -4,12 +4,12 @@
 
 # Input
     Input in bash:
-    ~~~~python coin_change_solution.py 4,3 1,2,3~~~~
+        'python coin_change_solution.py 4,3 1,2,3'
 
 # Output
     Output:
-        ~~~~4~~~~
+        '4'
 
 # Dependencies
-    ~~~~import sys~~~~
+    'import sys'
 
